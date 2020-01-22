@@ -3,7 +3,7 @@
 token CIdent (upper (letter | '_' | '\'')* ) ;
 token TeX ( '\\' letter+ ) ;
 token Weird ( '%' ( letter+ | digit+ ) '%' ) ;
-token Subscript ( '_' ( letter | '{' ) ( letter | digit )+ '}' ) ;
+token Subscript ( '_' ( letter | '{' ( letter | digit )+ '}' ) ) ;
 
 Cid. Element ::= CIdent ;
 Tex. Element ::= TeX ;
