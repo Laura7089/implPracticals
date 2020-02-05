@@ -1,0 +1,11 @@
+Empty. SExpr ::= "()" ;
+Atom. SExpr1 ::= A ;
+Pair. SExpr2 ::= "(" SExpr3 "." SExpr3 ")" ;
+-- _. SExpr ::= SExpr1 ;
+-- _. SExpr1 ::= SExpr2 ;
+-- _. SExpr2 ::= SExpr3 ;
+-- _. SExpr3 ::= SExpr ;
+coercions SExpr 3 ;
+
+Int. A ::= Integer ;
+Id. A ::= Ident ;

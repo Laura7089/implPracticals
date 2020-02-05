@@ -1,5 +1,12 @@
 */*.hs
 */*.bak
+*/*.o
+*/*.hi
+*/*.txt
+*/*.x
+*/*.y
+*/Makefile
+*/Test*
 
 !**/*.cf
 !**/*.sh
