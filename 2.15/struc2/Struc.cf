@@ -1,0 +1,4 @@
+Add. B ::= B "+" B1 ;
+Mul. B1 ::= B1 "*" B2 ;
+Num. B2 ::= Integer ;
+coercions B 2 ;

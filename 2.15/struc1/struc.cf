@@ -1,0 +1,4 @@
+Add. S ::= S "+" S ;
+Mul. S ::= S "*" S ;
+Nmb. S ::= Integer ;
+Brac. S ::= "(" S ")" ;

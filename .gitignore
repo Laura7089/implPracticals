@@ -1,12 +1,12 @@
-*/*.hs
-*/*.bak
-*/*.o
-*/*.hi
-*/*.txt
-*/*.x
-*/*.y
-*/Makefile
-*/Test*
+**/*.hs
+**/*.bak
+**/*.hi
+**/*.o
+**/*.txt
+**/*.x
+**/*.y
+**/Makefile
+**/Test*
 
 !**/*.cf
 !**/*.sh
