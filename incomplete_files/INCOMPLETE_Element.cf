@@ -1,0 +1,12 @@
+-- file for the exercise on regular expressions
+
+token CIdent ? ;
+token TeX    ? ;
+token Weird   ? ;
+token Subscript ? ;
+
+Cid. Element ::= CIdent ;
+Tex. Element ::= TeX ;
+Wrd. Element ::= Weird ;
+Sub. Element ::= Subscript ;
+separator Element "" ;
