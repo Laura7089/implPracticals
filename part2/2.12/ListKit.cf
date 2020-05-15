@@ -1,8 +1,0 @@
-Empty. SExpr ::= "()" ;
-Atom. SExpr ::= Atom ;
-Pair. SExpr ::= "(" SExpr "." SExpr ")" ;
-coercions SExpr 4 ;
-
-Int. Atom ::= Integer ;
-Id. Atom ::= Ident ;
-coercions Atom 1

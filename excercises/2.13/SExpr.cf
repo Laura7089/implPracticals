@@ -1,0 +1,14 @@
+-- Empty. SEpxr ::= "()" ;
+-- Val. SExpr1 ::= Val ;
+-- Brackets. SExpr2 ::= "(" SExpr "." SExpr2 ")" ;
+-- coercions SExpr 2 ;
+--
+-- Int. Val ::= Integer ;
+-- Id. Val ::= Ident ;
+
+Brackets. SExpr ::= "(" SExpr "." SExpr ")" ;
+Empty. SEpxr ::= "()" ;
+Val. SExpr ::= Val ;
+
+Int. Val ::= Integer ;
+Id. Val ::= Ident ;
